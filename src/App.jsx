@@ -6,6 +6,7 @@ import About from './components/About'
 import View from './components/View'
 import Contact from './components/Contact'
 import Cursor from './components/Cursor'
+import Location from './components/Location'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Cursor />
       <Hero />
       <About />
+      <Location />
       <View />
       <Contact />
     </main>
