@@ -37,7 +37,16 @@ const Location = () => {
                 scrub: 1,
             }
         })
-    })
+
+        gsap.from('.find-us',{
+            y: 50,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: '#location',
+                start: 'top center',
+            }
+        })
+    },[])
   return (
     <section id="location">
         <div className='schedule'>
@@ -55,6 +64,7 @@ const Location = () => {
             </div>
         </div>
       <div className='location'>
+        <h1 className='find-us'>Find Us</h1>
         <img src="/stars/africa1.png" alt="location" />
         <div className='pin2'>
             <img className="pin-img" src="/stars/pin-location.png" alt="pin" />

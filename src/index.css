@@ -22,6 +22,11 @@ body{
     overflow-x: hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--color-hero);
+
+    h1{
+        border-style: none none solid;
+        text-shadow: 5px 5px 5px black;
+    }
 }
 
 #cursor{
@@ -40,7 +45,39 @@ body{
         height: 100;
     }
 }
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    z-index: 9;
+    .nav{
+        height: 50px;
+        width: 70%;
+        backdrop-filter: blur(20px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid;
 
+        .buttons{
+            display: flex;
+            justify-content:space-around;
+            width: 100%;
+            a{
+              text-decoration: none; 
+              color: var(--color-text) ;
+              border: 1px solid;
+              border-radius: 20px;
+              padding: 5px 20px;
+              background: rgba(6, 146, 25, 0.61);
+            }
+        }
+    }
+}
 #hero{
     background: var(--color-hero);   
     .hero {
@@ -81,7 +118,6 @@ body{
 #about{
     padding: 10% 0;
     text-transform: uppercase;
-    cursor: pointer;
     .about{
         padding: 100px 0;
         height: 100%;
@@ -117,6 +153,10 @@ body{
     justify-content: center;
     align-items: center;
 
+    .find-us{
+        position: absolute;
+        top: 0;
+    }
     .location{
         display: flex;
         justify-content: center;
@@ -146,6 +186,7 @@ body{
                 /* box-shadow: 2px 2px 10px; */
                 border-radius: 30px;
                 border: 1px solid;
+                text-align: center;
             }
         }
     }
@@ -244,5 +285,26 @@ body{
     }
     #hero .hero{
         
+    }
+}
+
+@media(max-width: 420px){
+    body{
+        font-size: 0.6rem;
+    }
+    #location{
+        font-size: 150%;
+       .location .pin2 h2{
+            width: 250%;
+            right: -40px;
+        }
+    }
+
+    #about .about{
+        padding: 40px 0;
+    }
+
+    nav .nav .buttons a{
+        padding:8px;
     }
 }

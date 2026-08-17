@@ -14,7 +14,7 @@ const Contact = () => {
         })
         gsap.from('.contact-info',{
             yPercent: 100,
-            delay: 1,
+            // delay: 0,
             opacity: 0,
             scrollTrigger: {
                 trigger: '#contact',

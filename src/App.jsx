@@ -7,10 +7,12 @@ import View from './components/View'
 import Contact from './components/Contact'
 import Cursor from './components/Cursor'
 import Location from './components/Location'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <main>
+      <Navbar />
       <Cursor />
       <Hero />
       <About />
