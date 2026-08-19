@@ -14,8 +14,6 @@ const Cursor = () => {
         gsap.to('#cursor',{
             x: position.x,
             y: position.y,
-            rorate: gsap.utils.random([360, -360]),
-            // ease: 'bounce.out',
         })
     },[position])
 

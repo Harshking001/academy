@@ -8,6 +8,8 @@ import Contact from './components/Contact'
 import Cursor from './components/Cursor'
 import Location from './components/Location'
 import Navbar from './components/Navbar'
+import Coaches from './components/Coaches'
+import Highlights from './components/highlights'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <About />
       <Location />
       <View />
+      <Coaches />
+      <Highlights />
       <Contact />
     </main>
   )
