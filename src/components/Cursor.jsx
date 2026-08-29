@@ -27,7 +27,7 @@ const Cursor = () => {
     },[])
   return (
     <div id="cursor">
-        <img className='cursor' src="/stars/cursor.png" alt="cursor" />
+        <img className='cursor' src="/academy/cursor.png" alt="cursor" />
     </div>
   )
 }

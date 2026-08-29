@@ -314,49 +314,49 @@ const View = () => {
       <ol>
         <li>
           <img
-            src="/stars/images/pic (2).jpg"
+            src="/academy/images/pic (2).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (1).jpg"
+            src="/academy/images/pic (1).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (3).jpg"
+            src="/academy/images/pic (3).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (4).jpg"
+            src="/academy/images/pic (4).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (5).jpg"
+            src="/academy/images/pic (5).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (1).jpg"
+            src="/academy/images/pic (1).jpg"
             alt="view"
           />
         </li>
 
         <li>
           <img
-            src="/stars/images/pic (1).webp"
+            src="/academy/images/pic (1).webp"
             alt="view"
           />
         </li>

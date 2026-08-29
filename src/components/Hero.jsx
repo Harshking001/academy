@@ -52,7 +52,7 @@ const Hero = () => {
   return (
     <section id="hero">
         <div className="hero">
-            <div className='h1'><img className='hero-ball' src="/stars/ball1.png" alt="ball" />Stars Football Academy</div>
+            <div className='h1'><img className='hero-ball' src="/academy/ball1.png" alt="ball" />Stars Football Academy</div>
             <p className='hero-p'>Building Future Legends On and Off the Pitch</p>
         </div>
     </section>

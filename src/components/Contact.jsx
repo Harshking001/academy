@@ -28,7 +28,7 @@ const Contact = () => {
         <div className='contact-info'>
             <h1>Contact Us</h1>
             <p>Have questions about trial sessions,schedules, or academy locations ? We'd love to hear from you</p>
-            <h2><img className="pin" src="/stars/pin-location.png" style={{
+            <h2><img className="pin" src="/academy/pin-location.png" style={{
                 width: '60px',
             }}alt="pinned" />Wendani astro turf, Nairobi, Kenya</h2>
             <a href="tel:0705472895">+254 705 472 895</a>

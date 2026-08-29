@@ -65,9 +65,9 @@ const Location = () => {
         </div>
       <div className='location'>
         <h1 className='find-us'>Find Us</h1>
-        <img src="/stars/africa1.png" alt="location" />
+        <img src="/academy/africa1.png" alt="location" />
         <div className='pin2'>
-            <img className="pin-img" src="/stars/pin-location.png" alt="pin" />
+            <img className="pin-img" src="/academy/pin-location.png" alt="pin" />
             <h2>Wendani Astro Turf, Nairobi, Kenya</h2>
         </div>
       </div>
