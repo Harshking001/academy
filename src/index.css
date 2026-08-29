@@ -1,5 +1,5 @@
 :root{
-    --bg: url(/stars/bg.png);
+    --bg: url(/academy/bg.png);
 
     --color-hero: rgba(14, 138, 45, 0.63);
     --color-text: rgb(219, 219, 219);
@@ -85,7 +85,7 @@ nav{
     .hero {
         height: 100vh;
         clip-path: polygon(5.2% 2.3%, 94.8% 3.3%, 100% 95.7%, 78.5% 94.7%, 73% 84.5%, 30% 84.2%, 20.9% 100%, 0% 100%);
-        background-image: url(/stars/hero.jpg);
+        background-image: url(/academy/hero.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
